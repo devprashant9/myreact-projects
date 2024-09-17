@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1380px;
+  height: 500px;
+  border: 2px solid tomato;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+  width: 400px;
+  height: 45px;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: mediumseagreen;
+}
+
+.items{
+  border: 2px solid tomato;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}

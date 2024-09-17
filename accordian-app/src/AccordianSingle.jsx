@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import data from "./assets/data";
 
-export default function App() {
+export default function AccordianSingle() {
   const [selected, setSelected] = useState(null);
 
   function handleChange(getCurrentId) {
@@ -10,6 +10,7 @@ export default function App() {
   return (
     <>
       <div className="container">
+      <h1>Accordian  With Single Item Display</h1>
         <div className="accordian">
           {data && data.length > 0 ? (
             data.map((dataItems, index) => {
