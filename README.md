@@ -13,3 +13,11 @@ It's same as the above one but the key takeaway is that we have a button which b
 &nbsp;&nbsp;&nbsp;&nbsp;Tech Learnt
 1. useState() Hook
 2. Frequently Controlling Function Calls using Ternary Operaor
+
+## 3.) Displaying Star Rating
+This was quite a fun project because it looked simple but it wasn,t so. Used a third-party dependency "react-icon" to generate stars. Also, setting the hover effect to the stars was a tedious task as of now in this learning phase. It was so because you need to hold the previously clicked rating. However, if the user moved mouse to select a new rating the hover effect should be shown. The user may or may not select new rating but the hover effect should change everytime mouse enters or leaves the rating stars.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Tech Learnt
+1. useState() Hook
+2. How to set Property to Classes Depending Upon States
+3. Passing default values to props
